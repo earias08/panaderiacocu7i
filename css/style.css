@@ -1,0 +1,16 @@
+
+.productosDestacados{
+    filter: grayscale(0.4);
+}
+
+.productosDestacados:hover{
+    filter: grayscale(0);
+    transition: 400ms;
+}
+
+@media all and (max-width: 767px){
+    .img-banner-responsive{
+        height: 250px;
+        object-fit: cover;
+    }
+}
